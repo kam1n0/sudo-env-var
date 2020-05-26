@@ -5,6 +5,8 @@ Sudo can be configured to inherit certain environment variables from the user's 
 
 Run 'sudo -l' and check which environment variables are inherited (look for the 'env_keep' options):
 
+![Image of sudo -l](https://github.com/kam1n0/sudo-env-var/blob/master/image.png)
+
 LD_PRELOAD and LD_LIBRARY_PATH are both inherited from the user's environment.
 * LD_PRELOAD loads a shared object before any others when a program is run.
 * LD_LIBRARY_PATH provides a list of directories where shared libraries are searched for first.
