@@ -1,5 +1,5 @@
 # sudo-env-var
-*Credit goes to Tib3rius | https://tryhackme.com/room/linuxprivesc
+*Credit goes to Tib3rius* | https://tryhackme.com/room/linuxprivesc
 
 Sudo can be configured to inherit certain environment variables from the user's environment.
 
